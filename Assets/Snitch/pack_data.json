@@ -1,0 +1,42 @@
+[
+  {
+    "name": "wood_sword",
+    "texture": "wood_sword.png",
+    "x": 0,
+    "y": 0,
+    "z": 45,
+    "scale": 0.5,
+    "forwardmultiplier": -1,
+    "sidemultiplier": 0.5
+  },
+  {
+    "name": "stone_sword",
+    "texture": "stone_sword.png",
+    "x": 0,
+    "y": 0,
+    "z": -45,
+    "scale": 0.5,
+    "forwardmultiplier": 1,
+    "sidemultiplier": -0.5
+  },
+  {
+    "name": "iron_sword",
+    "texture": "iron_sword.png",
+    "x": 0,
+    "y": 0,
+    "z": 45,
+    "scale": 0.5,
+    "forwardmultiplier": -1,
+    "sidemultiplier": 0.5
+  },
+  {
+    "name": "diamond_sword",
+    "texture": "diamond_sword.png",
+    "x": 0,
+    "y": 0,
+    "z": 45,
+    "scale": 0.5,
+    "forwardmultiplier": -1,
+    "sidemultiplier": 0.5
+  }
+]
