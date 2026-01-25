@@ -11,14 +11,7 @@ end
 local players = game:GetService("Players");
 
 if queue_on_teleport then
-    repeat
-        task.wait();
-    until select(2, function()
-        return players.LocalPlayer;
-    end)
-    players.LocalPlayer.OnTeleport:Connect(function()
-        queue_on_teleport(loader);
-    end)
+    queue_on_teleport(loader);
 end
 
 env.MoonV3Loaded = true;
