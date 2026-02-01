@@ -11,7 +11,13 @@ end
 local players = game:GetService("Players");
 
 if queue_on_teleport then
-    queue_on_teleport(loader);
+    if identifyexecutor():lower():find("volt") then
+        queue_on_teleport(loader);
+    else
+        game:GetService("Players").LocalPlayer.OnTeleport:Connect(function()
+            queue_on_teleport(loader);
+        end)
+    end
 end
 
 env.MoonV3Loaded = true;
