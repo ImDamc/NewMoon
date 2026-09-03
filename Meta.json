@@ -1,0 +1,8 @@
+{
+  "latestRelease": "03.09.2026",
+  "disabled": false,
+  "freemiumEnabled": false,
+  "clientFlags": {
+    "ircEnabled": true
+  }
+}
