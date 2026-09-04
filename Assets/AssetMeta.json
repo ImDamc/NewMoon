@@ -1,1 +1,7 @@
-
+{
+  "Snitch/diamond_sword.png": "https://raw.githubusercontent.com/ImDamc/NewMoon/refs/heads/main/Assets/Snitch/diamond_sword.png",
+  "Snitch/iron_sword.png": "https://raw.githubusercontent.com/ImDamc/NewMoon/refs/heads/main/Assets/Snitch/iron_sword.png",
+  "Snitch/stone_sword.png": "https://raw.githubusercontent.com/ImDamc/NewMoon/refs/heads/main/Assets/Snitch/stone_sword.png",
+  "Snitch/wood_sword.png": "https://raw.githubusercontent.com/ImDamc/NewMoon/refs/heads/main/Assets/Snitch/wood_sword.png",
+  "Snitch/pack_data.json": "https://raw.githubusercontent.com/ImDamc/NewMoon/refs/heads/main/Assets/Snitch/pack_data.json"
+}
