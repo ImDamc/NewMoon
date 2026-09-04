@@ -21,7 +21,6 @@ if queue_on_teleport then
 end
 
 env.MoonV3Loaded = true;
-delfile("MoonV3/Client.lua")
 if not isfile("MoonV3/Client.lua") then
     if not isfolder("MoonV3") then
         makefolder("MoonV3")
