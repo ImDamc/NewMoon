@@ -21,7 +21,6 @@ if queue_on_teleport then
 end
 
 env.MoonV3Loaded = true;
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ImDamc/NewMoon/refs/heads/main/Client/Source.luau"))();
 delfile("MoonV3/Client.lua")
 if not isfile("MoonV3/Client.lua") then
     writefile("MoonV3/Client.lua", game:HttpGet("https://raw.githubusercontent.com/ImDamc/NewMoon/refs/heads/main/Client/Source.luau"))
