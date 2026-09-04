@@ -23,6 +23,9 @@ end
 env.MoonV3Loaded = true;
 delfile("MoonV3/Client.lua")
 if not isfile("MoonV3/Client.lua") then
+    if not isfolder("MoonV3") then
+        makefolder("MoonV3)
+    end
     writefile("MoonV3/Client.lua", game:HttpGet("https://raw.githubusercontent.com/ImDamc/NewMoon/refs/heads/main/Client/Source.luau"))
     return loadfile("MoonV3/Client.lua")(...)
 else
