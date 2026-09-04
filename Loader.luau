@@ -8,6 +8,13 @@ if env.MoonV3Loaded then
     return;
 end
 
+local oldCloneref = clonefunction(cloneref)
+env.cloneref = function(...)
+    local suc, ret = pcall(oldCloneref, ...)
+    if suc then return ret end
+    return ...
+end
+
 local players = game:GetService("Players");
 
 if queue_on_teleport then
