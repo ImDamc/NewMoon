@@ -26,7 +26,7 @@ if not isfile("MoonV3/Client.lua") then
         makefolder("MoonV3")
     end
     writefile("MoonV3/Client.lua", game:HttpGet("https://raw.githubusercontent.com/ImDamc/NewMoon/refs/heads/main/Client/Source.luau"))
-    return loadfile("MoonV3/Client.lua")(...)
+    return loadfile("MoonV3/Client.lua")()
 else
-    return loadfile("MoonV3/Client.lua")(...)
+    return loadfile("MoonV3/Client.lua")()
 end
