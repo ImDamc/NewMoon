@@ -1,0 +1,14 @@
+{
+  ".lena.y": {
+    "color": [255, 0, 0],
+    "prefix": "Owner"
+  },
+  ".damc": {
+    "color": [255, 0, 0],
+    "prefix": "Owner"
+  },
+  "mrfridgebeater": {
+    "color": [160, 32, 240],
+    "prefix": "LENNY"
+  }
+}
